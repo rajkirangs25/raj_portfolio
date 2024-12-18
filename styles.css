@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.nav-block {
+  height: 10vh;
+  background-color: #ffffff;
+}
+.nav-block div .logo-name {
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+}
+
+/*-------------------------------------------------- INTRO SECTION */
+.intro {
+  width: 100vw;
+  height: 80vh;
+}
+
+.background-fill {
+  width: 40%;
+  height: 100%;
+  background-color: #c5dedd;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.intro .intro-card .card {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+.intro .intro-card .card .intro-section {
+  background-color: #dbe7e4;
+  padding: 3rem 4rem 1rem 4rem;
+}
+
+.intro .intro-card .card .intro-section img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+
+.intro .intro-card .card .intro-section .name h2 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.intro .intro-card .card .intro-section .small-line {
+  width: 40px;
+  height: 2px;
+  background-color: #0050ff;
+}
+
+.intro .intro-card .card .intro-section .work {
+  letter-spacing: 3px;
+  font-size: 0.9rem;
+}
+
+.intro .intro-card .card .social_links {
+  height: 10%;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.intro .intro-text {
+  width: 20%;
+}
+
+.intro .intro-text .hello {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.intro .intro-text h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Roboto", serif;
+}
+
+.intro .intro-text p {
+  font-family: "Roboto", serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.intro .intro-text .button-links {
+  margin: 2rem 0 2rem 0;
+}
+
+.intro .intro-text .button-links .btns {
+  border-radius: 50px;
+  padding: 10px 45px 10px 45px;
+  border: none;
+  font-family: "Roboto", serif;
+  font-size: 1rem;
+  color: #111111;
+  background-color: #c5dedd;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.intro .intro-text .button-links .btns:hover {
+  background-color: #dbe7e4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ----------------------------------------------------------Footer */
+footer {
+  padding-top: 2rem;
+  font-family: "Roboto", serif;
+}
+footer div div h4 {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+footer div div p {
+  font-size: 0.75rem;
+  font-weight: 300;
+}
