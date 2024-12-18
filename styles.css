@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .nav-block {
   height: 10vh;
   background-color: #ffffff;
@@ -7,12 +12,15 @@
 .nav-block div .logo-name {
   font-weight: 800;
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #111111;
 }
-
+/* HomePage------------------------------------------------------- */
 /*-------------------------------------------------- INTRO SECTION */
 .intro {
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
 }
 
 .background-fill {
@@ -109,6 +117,7 @@
 footer {
   padding-top: 2rem;
   font-family: "Roboto", serif;
+  height: 10vh;
 }
 footer div div h4 {
   font-size: 0.8rem;
@@ -116,5 +125,79 @@ footer div div h4 {
 }
 footer div div p {
   font-size: 0.75rem;
+  font-weight: 300;
+}
+
+/* RESUME PAGE------------------------------------------------------ */
+.resume-page {
+  background-color: #c5dedd;
+}
+.resume-page .resume {
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+}
+.resume-page div {
+  font-family: "Roboto", serif;
+}
+
+.resume-page div .exp-card .emp-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 30rem;
+  border-radius: 0%;
+  background-color: #dbe7e4;
+}
+
+.resume-page div .exp-card .emp-card div .position {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.resume-page div .exp-card .emp-card div .company {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.resume-page div .exp-card .emp-card div .timeline,
+.resume-page div .exp-card .emp-card div .location {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+.resume-page div div button {
+  border-radius: 50px;
+  padding: 10px 45px 10px 45px;
+  border: 1px;
+  font-family: "Roboto", serif;
+  font-size: 1rem;
+  color: #111111;
+  background-color: #dbe7e4;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume-page div div button:hover {
+  background-color: #c5dedd;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.resume-page div .edu-card .college-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 30rem;
+  border-radius: 0%;
+  background-color: #dbe7e4;
+}
+
+.resume-page div .edu-card .college-card div .degree {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.resume-page div .edu-card .college-card div .college {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.resume-page div .edu-card .college-card div .timeline,
+.resume-page div .edu-card .college-card div .location {
+  font-size: 0.7rem;
   font-weight: 300;
 }

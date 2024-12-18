@@ -22,7 +22,7 @@
   <body>
     <section class="nav-block d-flex justify-content-between pt-2">
       <div class="navbar logo d-flex justify-content-start">
-        <h2 class="logo-name me-1 ms-5">Raj Kiran</h2>
+        <a class="logo-name me-2 ms-5" href="/index.html">Raj Kiran</a>
         <span>/ DATA ANALYST</span>
       </div>
       <div class="menu pt-3" id="navbarNav">
@@ -42,6 +42,7 @@
         </ul>
       </div>
     </section>
+    <!--------------------------------------- Home Section ------------------------------------->
     <div class="background-fill position-absolute"></div>
     <section
       class="intro d-flex align-items-center justify-content-center position-relative"
@@ -70,9 +71,12 @@
         <h1 class="hello">Hello there!</h1>
         <h3>Here's who I am & what I do</h3>
         <div class="button-links">
-          <button type="button" class="btn btn-outline-secondary btns">
-            Resume
-          </button>
+          <a href="/resume_page.html"
+            ><button type="button" class="btn btn-outline-secondary btns">
+              Resume
+            </button></a
+          >
+
           <button type="button" class="btn btn-outline-secondary btns">
             Projects
           </button>
@@ -86,6 +90,44 @@
           crafting new solutions, I’m here to make an impact—one project at a
           time!
         </p>
+      </div>
+    </section>
+    <!-------------------------------- Resume Section ---------------------------------->
+    <section class="resume-page">
+      <h2 class="d-flex justify-content-center p-5 resume">Resume</h2>
+      <div class="container d-flex flex-column align-items-center mb-5">
+        <div class="container-fluid resume-head d-flex justify-content-between">
+          <h2>Experience</h2>
+          <a href="/assets/Raj Kiran Resume.pdf" download
+            ><button>Download CV</button></a
+          >
+        </div>
+        <div id="card-section" class="exp-card"></div>
+      </div>
+      <div class="container d-flex flex-column align-items-center pb-5">
+        <div class="container-fluid">
+          <h2>Education</h2>
+        </div>
+        <div id="card-section" class="edu-card">
+          <div class="card college-card mt-3 pt-4 pb-4">
+            <div class="container-fluid d-flex flex-column align-items-center">
+              <h4 class="degree">Master's of Computer Application</h4>
+              <h4 class="college">BMS Institute of Technlogy & Management</h4>
+              <h4 class="timeline">2015 - 2019</h4>
+              <h4 class="location">Bengaluru, Karnataka, India</h4>
+            </div>
+          </div>
+          <div class="card college-card mt-3 pt-4 pb-4">
+            <div class="container-fluid d-flex flex-column align-items-center">
+              <h4 class="degree">Bachelor's of Computer Application</h4>
+              <h4 class="college">
+                Institute of Business Management & Research
+              </h4>
+              <h4 class="timeline">2012 - 2015</h4>
+              <h4 class="location">Hubli, Karnataka, India</h4>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -105,5 +147,6 @@
         </div>
       </div>
     </footer>
+    <script src="scripts.js"></script>
   </body>
 </html>
